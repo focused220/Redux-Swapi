@@ -5,7 +5,7 @@ const initialState = {
   error: ''
  };
 
-export const charsReducer = (state = initialState, action) => {
+export const charsReducer = (state = initialState, action) => { 
   switch (action.type) {
     
     case FETCH_INPROCESS:
